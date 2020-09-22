@@ -1,0 +1,7 @@
+strl=input().replace('\r',"")
+theNum=int(input().replace('\r',""))
+fstr=input().replace('\r',"")
+print((strl+" "*(theNum-len(strl))))
+print("{:>{width}}".format(strl , width=theNum))
+print("{:^{width}}".format(strl , width=theNum))
+print('{:{fill}{align}{width}}'.format(strl, fill=fstr,align="^", width=theNum))
