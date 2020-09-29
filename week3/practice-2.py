@@ -1,5 +1,5 @@
-s = str(input())
-t = str(input())
+s = str(input().replace("\r", ""))
+t = str(input().replace("\r", ""))
 theWordDic = {}
 list_s = list(s)
 list_t = list(t)

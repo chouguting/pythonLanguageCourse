@@ -1,4 +1,4 @@
-theInput = input()
+theInput = input().replace("\r", "")
 
 theList = []
 theList = theInput.split(",")
